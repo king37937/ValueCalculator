@@ -1,0 +1,8 @@
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.csprojResolveAssemblyReference.cache
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculatorTests.dll
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculatorTests.pdb
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculator.dll
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculator.pdb
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.dll
+C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.pdb
