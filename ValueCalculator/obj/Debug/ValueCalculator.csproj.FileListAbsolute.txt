@@ -3,3 +3,9 @@ C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCa
 C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculator\bin\Debug\ValueCalculator.pdb
 C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculator\obj\Debug\ValueCalculator.dll
 C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculator\obj\Debug\ValueCalculator.pdb
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculator\bin\Debug\ValueCalculator.dll.config
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculator\bin\Debug\ValueCalculator.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculator\bin\Debug\ValueCalculator.pdb
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculator\obj\Debug\ValueCalculator.csprojResolveAssemblyReference.cache
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculator\obj\Debug\ValueCalculator.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculator\obj\Debug\ValueCalculator.pdb

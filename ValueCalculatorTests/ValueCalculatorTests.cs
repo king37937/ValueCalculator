@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FluentAssertions;
 
 namespace ValueCalculator.Tests
 {
@@ -18,13 +19,102 @@ namespace ValueCalculator.Tests
         public void CalculateByGroupTest_countInGroup_3_columnName_Cost_should_return_6_15_24_21()
         {
             //arrange
-            var products = _products;
-            var target = new ValueCalculator(products);
-            var countInGroup = 3;
+            var target = new ValueCalculator(_products);
             var columnName = "Cost";
+            var countInGroup = 3;
             var expected = new int[6, 15, 24, 21];
             //act
-            var actual = target.CalculateByGroup(countInGroup, columnName);
+            var actual = target.CalculateByGroup(columnName, countInGroup);
+
+            //assert
+            CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void CalculateByGroupTest_columnName_Revenue_countInGroup_4_should_return_50_66_60()
+        {
+            //arrange
+            var target = new ValueCalculator(_products);
+            var columnName = "Revenue";
+            var countInGroup = 4;
+            var expected = new int[50, 66, 60];
+            //act
+            var actual = target.CalculateByGroup(columnName, countInGroup);
+
+            //assert
+            CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void CalculateByGroupTest_columnName_Revenue_countInGroup_0_should_throw_ArgumentException()
+        {
+            //arrange
+            var target = new ValueCalculator(_products);
+            var columnName = "Revenue";
+            var countInGroup = 0;
+
+            //act
+            Action actual = () => target.CalculateByGroup(columnName, countInGroup);
+
+            //assert
+            actual.ShouldThrow<ArgumentException>();
+        }
+
+        [TestMethod()]
+        public void CalculateByGroupTest_columnName_Revenue_countInGroup_negative_1_should_throw_ArgumentException()
+        {
+            //arrange
+            var target = new ValueCalculator(_products);
+            var columnName = "Revenue";
+            var countInGroup = -1;
+
+            //act
+            Action actual = () => target.CalculateByGroup(columnName, countInGroup);
+
+            //assert
+            actual.ShouldThrow<ArgumentException>();
+        }
+
+        [TestMethod()]
+        public void CalculateByGroupTest_columnName_NotExist_countInGroup_5_should_throw_ArgumentException()
+        {
+            //arrange
+            var target = new ValueCalculator(_products);
+            var columnName = "NotExist";
+            var countInGroup = 5;
+
+            //act
+            Action actual = () => target.CalculateByGroup(columnName, countInGroup);
+
+            //assert
+            actual.ShouldThrow<ArgumentException>();
+        }
+
+        [TestMethod()]
+        public void CalculateByGroupTest_countInGroup_1_columnName_Cost_should_return_1_2_3_4_5_6_7_8_9_10_11()
+        {
+            //arrange
+            var target = new ValueCalculator(_products);
+            var columnName = "Cost";
+            var countInGroup = 1;
+            var expected = new int[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+            //act
+            var actual = target.CalculateByGroup(columnName, countInGroup);
+
+            //assert
+            CollectionAssert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void CalculateByGroupTest_countInGroup_11_columnName_Cost_should_return_66()
+        {
+            //arrange
+            var target = new ValueCalculator(_products);
+            var columnName = "Cost";
+            var countInGroup = 11;
+            var expected = new int[66];
+            //act
+            var actual = target.CalculateByGroup(columnName, countInGroup);
 
             //assert
             CollectionAssert.AreEqual(expected, actual);

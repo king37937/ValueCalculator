@@ -6,3 +6,17 @@ C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCa
 C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculator.pdb
 C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.dll
 C:\Users\king.ho99\Documents\Visual Studio 2015\Projects\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.pdb
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculatorTests.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculatorTests.pdb
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\FluentAssertions.Core.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\FluentAssertions.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculator.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\ValueCalculator.pdb
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\FluentAssertions.pdb
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\FluentAssertions.xml
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\FluentAssertions.Core.pdb
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\bin\Debug\FluentAssertions.Core.xml
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.csprojResolveAssemblyReference.cache
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.dll
+C:\KingHo\Gitlab\ValueCalculator\ValueCalculatorTests\obj\Debug\ValueCalculatorTests.pdb

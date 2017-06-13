@@ -16,7 +16,7 @@ namespace ValueCalculator
             _products = products;
         }
 
-        public List<int> CalculateByGroup(int countInGroup, string columnName)
+        public List<int> CalculateByGroup(string columnName, int countInGroup)
         {
             return new List<int>();
         }
